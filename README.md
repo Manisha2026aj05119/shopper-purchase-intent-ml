@@ -60,7 +60,7 @@ shopper-purchase-intent-ml/
 |-- results/                metrics, confusion matrices, reports and plots
 ```
 
-**Live app:** to be added after deployment.
+**Live app:** https://manisha2026aj05119-shopper-purchase-intent-ml.streamlit.app/
 
 ## d. Models used
 
