@@ -1,0 +1,48 @@
+{
+  "Logistic Regression": {
+    "file": "logistic_regression.joblib",
+    "estimator": "LogisticRegression",
+    "best_params": {
+      "C": 0.1,
+      "class_weight": "balanced"
+    },
+    "cv_auc_mean": 0.90555
+  },
+  "Decision Tree": {
+    "file": "decision_tree.joblib",
+    "estimator": "DecisionTreeClassifier",
+    "best_params": {
+      "class_weight": "balanced",
+      "max_depth": 6,
+      "min_samples_leaf": 20
+    },
+    "cv_auc_mean": 0.919198
+  },
+  "KNN": {
+    "file": "knn.joblib",
+    "estimator": "KNeighborsClassifier",
+    "best_params": {
+      "n_neighbors": 31,
+      "weights": "distance"
+    },
+    "cv_auc_mean": 0.863684
+  },
+  "Naive Bayes": {
+    "file": "naive_bayes.joblib",
+    "estimator": "GaussianNB",
+    "best_params": {
+      "var_smoothing": 0.1
+    },
+    "cv_auc_mean": 0.835822
+  },
+  "Support Vector Machine": {
+    "file": "svm.joblib",
+    "estimator": "SVC",
+    "best_params": {
+      "C": 4.0,
+      "class_weight": "balanced",
+      "gamma": 0.01
+    },
+    "cv_auc_mean": 0.913312
+  }
+}

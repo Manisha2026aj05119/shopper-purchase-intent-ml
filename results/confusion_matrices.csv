@@ -1,0 +1,6 @@
+ML Model Name,TN,FP,FN,TP
+Logistic Regression,1802,282,100,282
+Decision Tree,1785,299,67,315
+KNN,2046,38,275,107
+Naive Bayes,1718,366,140,242
+Support Vector Machine,1853,231,97,285
