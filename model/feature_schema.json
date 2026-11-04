@@ -1,0 +1,108 @@
+{
+  "target": "Revenue",
+  "positive_label": true,
+  "numeric_features": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "PageValues",
+    "SpecialDay"
+  ],
+  "categorical_features": [
+    "Month",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "VisitorType",
+    "Weekend"
+  ],
+  "categorical_levels": {
+    "Month": [
+      "Aug",
+      "Dec",
+      "Feb",
+      "Jul",
+      "June",
+      "Mar",
+      "May",
+      "Nov",
+      "Oct",
+      "Sep"
+    ],
+    "OperatingSystems": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "Browser": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "Region": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "TrafficType": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "VisitorType": [
+      "New_Visitor",
+      "Other",
+      "Returning_Visitor"
+    ],
+    "Weekend": [
+      "False",
+      "True"
+    ]
+  },
+  "random_state": 42,
+  "test_size": 0.2
+}

@@ -1,0 +1,9 @@
+Online Shoppers Purchasing Intention (UCI id 468)
+rows: 12330
+input features: 17 (10 numeric, 7 categorical)
+target: Revenue (binary)
+positive class (Revenue=True): 1908 (15.47%)
+negative class (Revenue=False): 10422 (84.53%)
+missing values: 0
+exact duplicate rows (kept): 125
+constraint check: features >= 12 and rows >= 500 -> PASS
