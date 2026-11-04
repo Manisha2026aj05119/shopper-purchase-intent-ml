@@ -1,0 +1,11 @@
+# Local development extras (not needed by the deployed Streamlit app).
+#
+# Setup:
+#   uv venv --python 3.12 .venv
+#   uv pip install -r requirements-dev.txt
+#   source .venv/bin/activate
+#   jupyter notebook
+-r requirements.txt
+jupyter==1.1.1
+ipykernel==7.4.0
+nbconvert==7.17.2

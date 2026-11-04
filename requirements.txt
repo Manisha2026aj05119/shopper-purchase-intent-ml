@@ -1,0 +1,12 @@
+# Runtime dependencies for the Streamlit app and the training notebook.
+# Versions are pinned exactly so that the models saved with joblib load on
+# Streamlit Community Cloud with the same scikit-learn build they were trained with.
+# Verified locally on Python 3.12.13 (set Python 3.12 in the Streamlit Cloud
+# "Advanced settings" when deploying).
+streamlit==1.66.1
+scikit-learn==1.9.1
+pandas==3.1.0
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
